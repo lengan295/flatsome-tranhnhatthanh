@@ -1,0 +1,46 @@
+div:has(#google-map) {
+  margin-bottom: 2em;
+}
+
+#google-map {
+  border: 0;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+h2 {
+  text-align: center;
+}
+
+.wpcf7 {
+  display: flex;
+  justify-content: center;
+}
+
+.wpcf7 form {
+  padding-top: 2em;
+  width: 60%;
+}
+
+.wpcf7-submit {
+  width: 100%;
+  ;
+}
+
+@media (max-width: 1280px) {
+  section .col-inner {
+    padding: 0 .5em;
+  }
+}
+
+@media (max-width: 850px) {
+  .wpcf7 form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .wpcf7 form {
+    width: 90%;
+  }
+}

@@ -1,0 +1,66 @@
+/* Header */
+#wide-nav {
+  background-color: var(--primary-darkest);
+}
+
+#wide-nav a:hover,
+#wide-nav .current-menu-item a {
+  color: var(--secondary-light);
+}
+
+/* Footer */
+#footer .footer-main .section-content {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: var(--primary-darker);
+}
+
+#footer h2 {
+  color: var(--secondary-dark);
+}
+
+#footer span, #footer p {
+  color: var(--secondary-lightest);
+}
+
+#footer a:hover span {
+  color: var(--secondary-medium);
+}
+
+#footer :is(.address, .phone, .email) {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
+#footer .social-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
+  margin-bottom: 2em;
+}
+
+#footer .social-icons span {
+  font-size: 2em;
+}
+
+#facebook,
+#facebook span {
+  width: 100% !important;
+  height: 150px !important;
+  overflow: hidden;
+}
+
+#footer .absolute-footer {
+  background-color: var(--primary-darkest);
+}
+
+@media (max-width: 550px) {
+  #facebook span {
+    text-align: center;
+  }
+
+  #facebook iframe {
+    position: static;
+  }
+}
